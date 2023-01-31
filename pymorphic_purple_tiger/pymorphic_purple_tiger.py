@@ -1,7 +1,7 @@
 import hashlib
-import compress
-import adjectives
-import animals
+from pymorphic_purple_tiger.compress import compress
+from pymorphic_purple_tiger.adjectives import adjectives
+from pymorphic_purple_tiger.animals import animals
 
 
 def to_styled(words, style):
