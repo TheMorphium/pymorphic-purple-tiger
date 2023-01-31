@@ -1,4 +1,4 @@
-# Angry Purple Tiger
+# Angry Pyple Tiger - Pythonic Derivative
 Angry Purple Tiger generates animal-based hash diegests meant to be memorable
 and human-readable. Angry Purple Tiger is apt for anthropomorphizing project
 names, crypto addresses, UUIDs, or any complex string of characters that
@@ -7,12 +7,12 @@ needs to be displayed in a user interface.
 ## Example
 
 ```js
-import animalHash from 'angry-purple-tiger';
+from angry_pyple_tiger import animal_hash
 
-const digest = animalHash('my ugly input string');
-console.log(digest);
-//=> rapid grey rattlesnake
+digest = animal_hash('my ugly input string')
+print(digest)
+# => Rapid Grey Rattlesnake
 ```
 
 ## License
-Apache 2.0 © 2018 Helium Systems, Inc.
+Apache 2.0 © 2023 TheMorphium ⟨™⟩
