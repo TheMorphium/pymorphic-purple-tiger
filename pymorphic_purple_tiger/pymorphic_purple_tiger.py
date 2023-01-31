@@ -2,7 +2,7 @@ import hashlib
 from pymorphic_purple_tiger.compress import compress
 from pymorphic_purple_tiger.adjectives import adjectives
 from pymorphic_purple_tiger.animals import animals
-
+from pymorphic_purple_tiger.colors import colors
 
 def to_styled(words, style):
     styled_words = []
