@@ -7,7 +7,7 @@ needs to be displayed in a user interface.
 ## Example
 
 ```js
-from angry_pyple_tiger import animal_hash
+from pymorphic_purple_tiger import animal_hash
 
 digest = animal_hash('my ugly input string')
 print(digest)
