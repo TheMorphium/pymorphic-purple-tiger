@@ -1,8 +1,8 @@
 import hashlib
-from compress import compress
-from adjectives import adjectives
-from colors import colors
-from animals import animals
+from sys.compress import compress
+from sys.adjectives import adjectives
+from sys.colors import colors
+from sys.animals import animals
 
 
 def to_styled(words, style):
