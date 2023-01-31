@@ -11,7 +11,7 @@ from angry_pyple_tiger import animal_hash
 
 digest = animal_hash('my ugly input string')
 print(digest)
-# => Rapid Grey Rattlesnake
+# => rapid grey rattlesnake
 ```
 
 ## License
