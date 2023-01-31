@@ -2,7 +2,7 @@ from math import floor
 from functools import reduce
 
 def compress(bytes, target):
-    #bytes = str(decimal_bytes)
+
     length = len(bytes)
     assert target <= length, 'Fewer input bytes than requested output'
 
