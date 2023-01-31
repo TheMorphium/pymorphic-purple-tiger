@@ -1,4 +1,4 @@
-# Angry Pyple Tiger - Pythonic Derivative
+# Pymorphic Purple Tiger - Pythonic Derivative
 Angry Purple Tiger generates animal-based hash diegests meant to be memorable
 and human-readable. Angry Purple Tiger is apt for anthropomorphizing project
 names, crypto addresses, UUIDs, or any complex string of characters that
