@@ -1,5 +1,5 @@
 
-from src.pymorphic_purple_tiger import animal_hash
+from pymorphic_purple_tiger import animal_hash
 
 array = []
 i = 0
