@@ -36,7 +36,7 @@ def describe_compress():
 
     print('should throw an error if given fewer bytes than requested output')
     try:
-        compress([ 23 ], 3))
+        compress([ 23 ], 3)
     except
         print('/Fewer input bytes/')
 
