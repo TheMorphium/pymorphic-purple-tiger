@@ -6,12 +6,19 @@ needs to be displayed in a user interface.
 
 ## Example
 
-```js
+```
 from pymorphic_purple_tiger import animal_hash
 
-digest = animal_hash('my ugly input string')
+digest = animal_hash('my ugly input string', style='lowercase')
 print(digest)
 # => rapid grey rattlesnake
+
+# Tests
+from test_tool import test_tool
+
+# Demo
+from examples import demo
+
 ```
 
 Original Helium Network Javascript library here: https://github.com/helium/angry-purple-tiger

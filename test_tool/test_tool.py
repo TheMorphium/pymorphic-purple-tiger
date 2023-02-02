@@ -3,7 +3,7 @@ from pymorphic_purple_tiger import compress
 from pymorphic_purple_tiger import adjectives
 from pymorphic_purple_tiger import colors
 from pymorphic_purple_tiger import animals
-from pymorphic_purple_tiger.pymorphic_purple_tiger import animal_hash
+
 
 def describe_anmial_hash():
     print('should turn arbitrary string input into an animal hash')
