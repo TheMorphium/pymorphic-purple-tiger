@@ -20,7 +20,7 @@ def to_styled(words, style):
     return styled_words
 
 
-def animal_hash(input, style='lowercase', separator=' '):
+def animal_hash(input, style='titlecase', separator=' '):
     hex_digest = hashlib.md5(input.encode(encoding = 'UTF-8', errors = 'strict')).hexdigest()
     pairs = [hex_digest[i:i+2] for i in range(0, len(hex_digest), 2)]
     bytes = [int(pair, 16) for pair in pairs]

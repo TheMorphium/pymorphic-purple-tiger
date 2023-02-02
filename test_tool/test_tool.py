@@ -3,6 +3,7 @@ from pymorphic_purple_tiger import compress
 from pymorphic_purple_tiger import adjectives
 from pymorphic_purple_tiger import colors
 from pymorphic_purple_tiger import animals
+from pymorphic_purple_tiger.pymorphic_purple_tiger import animal_hash
 
 def describe_anmial_hash():
     print('should turn arbitrary string input into an animal hash')
@@ -19,7 +20,7 @@ def describe_anmial_hash():
 
     print('should support uppercased style')
     expect_val = 'RAPID GREY RATTLESNAKE'
-    print(animalHash('my ugly input string',style='uppercase') == expect_val)
+    print(animal_hash('my ugly input string',style='uppercase') == expect_val)
 
     print('should throw an error if passed an unknown style')
     try:
@@ -37,7 +38,7 @@ def describe_compress():
     print('should throw an error if given fewer bytes than requested output')
     try:
         compress([ 23 ], 3)
-    except
+    except:
         print('/Fewer input bytes/')
 
 def describe_wordlist():
@@ -55,6 +56,9 @@ def describe_wordlist():
     print(word_count == (256 * 3))
     if not dupes:
         print('No duplicates found')
+
+    # There are in fact a number of duplicates.  In order to keep this library identical to the Helium library
+    # Those duplicates will remain until that library is updated.
 
 
 describe_anmial_hash()
