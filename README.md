@@ -1,5 +1,5 @@
 # Pymorphic Purple Tiger - Is a pythonic Derivative of Helium's Angry Purple Tiger
-Pymorphic Purple Tiger generates animal-based hash diegests meant to be memorable
+Pymorphic Purple Tiger generates animal-based hash digests meant to be memorable
 and human-readable. Pymorphic Purple Tiger is apt for anthropomorphizing project
 names, crypto addresses, UUIDs, or any complex string of characters that
 needs to be displayed in a user interface.
