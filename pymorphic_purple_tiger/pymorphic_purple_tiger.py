@@ -7,14 +7,11 @@ from pymorphic_purple_tiger.colors import colors
 def to_styled(words, style):
     styled_words = []
     if style == 'titlecase':
-        for word in words:
-            styled_words.append(word.title())
+        styled_words.extend(word.title() for word in words)
     elif style == 'lowercase':
-        for word in words:
-            styled_words.append(word.lower())
+        styled_words.extend(word.lower() for word in words)
     elif style == 'uppercase':
-        for word in words:
-            styled_words.append(word.upper())
+        styled_words.extend(word.upper() for word in words)
     else:
         raise ValueError('Unknown style')
     return styled_words
